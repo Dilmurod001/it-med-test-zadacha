@@ -23,7 +23,7 @@ public class PatientService {
         try {
             if (patient.getDescription().length() != 8) return new ApiResult<>(null, false, "Length Error !");
 
-            // Ismoil uc
+            // Ismoil ucn
 
 
             Patient patient1 = new Patient();
